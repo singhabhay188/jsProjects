@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body[theme="dark"]{
+    background-color: #111;
+    color: #fff;
+}
+
+body[theme="light"]{
+    background-color: #fff;
+    color: #333;
+}
+
+body[theme="dark"] button{
+    background: white;
+    color:black;
+}
+body[theme="light"] button{
+    background: black;
+    color:white;
+}
