@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flex flex-col">
+    <nav class="w-full text-center text-2xl md:text-3xl font-bold bg-zinc-800 py-4 uppercase text-white">Guess The Number game</nav>
+
+    <main class="flex-1 py-8 flex flex-col gap-3 px-4">
+        <input type="text" id="typedText" placeholder="Enter your String here" class="border-[1px] border-black text-black p-2 rounded-lg w-[600px]">
+        <div class="flex flex-wrap gap-4 bg-red-900 justify-start">
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Upper Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Lower Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Pascal Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Camel Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Snake Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Kebab Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+            <div class="p-2 border-[1px] w-[600px] border-black">
+                <p class="bg-black text-white w-max p-1 rounded-lg">Trim Case</p>
+                <p class="bg-red-200 p-2 mt-1 transformation min-h-8">Enter your String here</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
